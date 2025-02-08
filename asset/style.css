@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #4a9bb4;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #4a9bb4;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.profile h2 {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.contact p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.skills,
+.languages,
+.qualities,
+.interests {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.skills h3,
+.languages h3,
+.qualities h3,
+.interests h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.skills ul,
+.qualities ul,
+.interests ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.qualities li,
+.interests li {
+    margin: 5px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+}
+
+h2 {
+    color: #4a9bb4;
+    border-bottom: 2px solid #4a9bb4;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    /* Sépare les éléments */
+    align-items: center;
+}
+
+.date {
+    display: block;
+    text-align: right;
+    flex-shrink: 0;
+    /* Empêche la date de rétrécir */
+    color: #4a9bb4;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #4a9bb4;
+    width: 1000px;
+}
