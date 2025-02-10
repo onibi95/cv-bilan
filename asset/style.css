@@ -10,7 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #f3f3f3;
     margin: auto;
-    padding: auto;
+    padding: 0;
     width: 1160px;
     max-width: 1160px;
 }
@@ -97,6 +97,20 @@ img:hover {
     text-align: center;
 }
 
+.qualities ul,
+.interests ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.qualities ul li::before,
+.interests ul li::before {
+    content: "\25AA";
+    float: left;
+    color: #17abb3;
+    margin-left: -1em;
+}
+
 .skills,
 .languages,
 .qualities,
@@ -117,17 +131,61 @@ img:hover {
     font-family: 'Lato', sans-serif;
 }
 
-.skills ul,
-.qualities ul,
-.interests ul {
-    list-style-type: none;
-    padding: 0;
+/* mise en page des étoiles */
+.skills {
+    margin-bottom: 20px;
 }
 
-.skills li,
-.qualities li,
-.interests li {
-    margin: 5px 0;
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-name,
+.skill-rating {
+    flex: 1;
+    padding: 0 5px;
+}
+
+.skill-name {
+    text-align: left;
+}
+
+.skill-rating {
+    text-align: right;
+}
+
+.skill-rating i {
+    color: #17abb3;
+    margin: 0 1px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.langue-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+/* mise à droite des niveau de langue */
+.langue,
+.niveau {
+    flex: 1;
+}
+
+.langue {
+    text-align: left;
+    font-weight: bold;
+}
+
+.niveau {
+    text-align: right;
 }
 
 .content {
@@ -160,6 +218,7 @@ p {
     color: #4a9bb4;
 }
 
+/* dynamise lors du survol */
 .section-item:hover {
     background-color: #e3e3e3;
     border-left: 5px solid #4a9bb4;
