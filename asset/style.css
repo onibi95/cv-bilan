@@ -43,6 +43,10 @@ header {
     object-fit: cover;
 }
 
+img:hover {
+    cursor: zoom-in;
+}
+
 .profile h1 {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -156,6 +160,14 @@ p {
     color: #4a9bb4;
 }
 
+.section-item:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #4a9bb4;
+    /* Bordure au survol */
+    padding-left: 5px;
+    /* Ajuste le padding pour compenser le trait */
+}
+
 footer {
     display: flex;
     margin: auto;
@@ -166,6 +178,10 @@ footer {
 
 svg {
     margin: 20px 10px 3px;
+}
+
+svg:hover {
+    opacity: 15%;
 }
 
 footer p {
