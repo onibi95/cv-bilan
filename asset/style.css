@@ -72,8 +72,8 @@ img:hover {
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     list-style-type: none;
-    padding: 0;
     margin: 20px 0;
+    padding-left: 15em;
 }
 
 .profile {
@@ -84,6 +84,7 @@ img:hover {
     max-width: 800px;
     width: 100%;
     margin: 20px auto;
+    padding-left: 15em;
 }
 
 .profile-section p {
