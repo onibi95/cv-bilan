@@ -29,6 +29,11 @@ header {
     margin: auto;
 }
 
+.profil,
+.contact {
+    padding-left: 15%;
+}
+
 .profile-picture {
     position: absolute;
     left: 70px;
@@ -81,6 +86,11 @@ img:hover {
     margin: 20px auto;
 }
 
+.profile-section p {
+    text-indent: 2em;
+    text-justify: inter-word;
+}
+
 .container {
     display: flex;
     max-width: 1000px;
@@ -127,7 +137,7 @@ img:hover {
 .interests h3 {
     border-bottom: 2px solid rgba(51, 51, 51, 0.05);
     padding-bottom: 5px;
-    color: #17abb3;
+    color: rgba(23, 171, 179, 0.9);
     font-family: 'Lato', sans-serif;
 }
 
@@ -194,7 +204,7 @@ img:hover {
 }
 
 .content h2 {
-    color: #4a9bb4;
+    color: rgba(23, 171, 179, 0.8);
     border-bottom: 2px solid #e3e3e3;
     padding-bottom: 5px;
 }
